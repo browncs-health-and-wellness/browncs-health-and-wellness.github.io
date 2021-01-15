@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap");
+
+@font-face {
+  font-family: "Europa-Regular";
+  src: url("./fonts/Europa-Regular.otf");
+}
+
+html {
+}
+
+body {
+  font-family: "Europa-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  /* background-color: #ffebeb; /*change later!*/
+  background-color: #fafafa;
+  font-size: 0.95rem;
+  color: #27282e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #262629;
+  /* color: black; */
+  font-family: "Inconsolata";
+  font-weight: 700;
+}
+
+.test {
+  /* background-color: #ffd4d4;
+    padding: 10px;
+    display: inline-block; */
+  text-shadow: 4px 3px #ffd4d4;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+a,
+a:visited {
+  color: #262629;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited:hover,
+a:visited:focus,
+a:visited:active {
+  color: #262629;
+  text-decoration: none;
+}
+
+#header {
+  font-family: "Inconsolata";
+  font-size: 15px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  /* background-color: rgba(255, 212, 212, 0.9); */
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+}
+
+#header nav {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+  /* background-color: white; */
+}
+#header nav .navbar-brand {
+  font-weight: 900;
+}
+#header nav a {
+  color: #262629;
+}
+#header nav a:hover {
+  background-color: #fa8f8f;
+}
+#header nav a.active {
+  border-bottom: 3px solid #ed5151;
+  font-weight: 700;
+}
+#header #header-img {
+  /*    filter: brightness(70%);
+*/
+  background-image: url("../res/img/header.png");
+  background-size: cover;
+  height: 400px;
+
+  position: relative;
+}
+
+#inner-img {
+  height: 450px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  filter: brightness(1.25);
+}
+
+#copy {
+  margin-top: 40px;
+  /* background-color: white; */
+  padding-top: 30px;
+  height: 100%;
+}
+#course-intro-panel,
+#final-project-panel,
+#overview,
+#grading,
+#late-policy {
+  padding: 20px;
+  padding-right: 30px;
+  padding-top: 0;
+}
+#staff-header {
+  margin-bottom: 8px;
+}
+#assignments,
+#resources {
+  margin-bottom: 70px;
+}
+#assignments-table,
+#final-project-table,
+#labs-table,
+#slides-table {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#home {
+  margin-top: 0px;
+  padding-top: 70px;
+  height: 100%;
+}
+
+#sidebar {
+  margin-top: -15px;
+  /* border-left: 1px solid #f1f1f2; } */
+}
+#sidebar #overview {
+  margin-top: 15px;
+}
+#sidebar #overview p {
+  margin-bottom: 1px;
+}
+#course-intro-panel a {
+  color: #ed5151;
+}
+#sidebar a,
+#frontcopy a,
+.pre-quiz a,
+.python a,
+.department-resouces a,
+.project deadline table a,
+#course-documents a {
+  color: #c27b0a !important;
+}
+#sidebar a:hover,
+#sidebar a:focus,
+#sidebar a:active,
+#course-intro-panel a:hover,
+#course-intro-panel a:focus,
+#course-intro-panel a:active,
+#course-documents a:hover,
+#course-documents a:focus,
+#course-documents a:active,
+.pre-quiz a:hover,
+.python a:hover,
+.department-resources a:hover,
+.project deadline table a:hover,
+.pre-quiz a:focus,
+.python a:focus,
+.department-resources a:focus,
+.project deadline table a:hover,
+.pre-quiz a:active,
+.python a:active
+.department-resources a:active,
+.project deadline table a:active,{
+  color: black;
+}
+
+.pre-quiz,
+.python {
+  width: 75%;
+  margin-bottom: 50px;
+}
+#python-quiz,
+#stats-quiz {
+  margin-left: 50px;
+}
+.quiz p,
+.quiz a {
+  margin-top: 4px;
+}
+p.quiz-desc {
+  margin-bottom: 3px;
+}
+
+.probability,
+.statistics,
+.solutions,
+.example,
+.problem1,
+.problem2,
+.problem3,
+.problem4,
+.problem5 {
+  margin-top: 80px;
+}
+
+.overview-sub {
+  margin-top: 18px;
+  margin-bottom: 3px;
+}
+
+.staff {
+  margin-top: 1rem;
+  text-align: center;
+}
+.staff .name {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.staff .login {
+  font-family: "Inconsolata";
+}
+tt {
+  font-family: "Inconsolata";
+}
+.staff-introduction,
+.professor,
+.headtas,
+.utas,
+.etas {
+  margin-bottom: 50px;
+}
+
+#staff-description {
+  margin-top: 20px;
+}
+#staff-description p {
+  margin-bottom: 10px;
+}
+
+.profile {
+  z-index: 9;
+  max-width: 230px;
+  max-height: 230px;
+}
+
+#calendar {
+  width: 100%;
+}
+
+#mobile-calendar {
+  width: 100%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#other-content-container {
+  padding-bottom: 80px;
+}
+
+#footer {
+  position: absolute;
+
+  bottom: 0;
+
+  padding-top: 15px;
+  padding-bottom: 1px;
+  background-color: #27282e;
+
+  width: 100%;
+
+  font-size: 0.75rem;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+#error {
+  padding-top: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/* project page formatting */
+#cards {
+  margin: 40px auto;
+  max-width: 80rem;
+  padding-top: 30px;
+}
+
+.card-title,
+.card-subtitle {
+  overflow-wrap: break-word;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+.img-container {
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px 5px 0 0;
+}
+
+.content-container {
+  padding: 15px;
+  padding-top: 12px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* PIE CHART SVG */
+.pie {
+  margin: 20px;
+}
+
+svg {
+}
+
+.legend {
+  font-family: "Europa-Regular";
+  font-size: 1em;
+  margin-top: 0px;
+}
+
+.pie text {
+  font-family: "Europa-Regular";
+  fill: #000;
+}
+
+.pie .name-text {
+  font-size: 1em;
+}
+
+.pie .value-text {
+  font-size: 3em;
+}
+
+/* BAR CHART SVG */
+.xaxis line {
+  stroke: #616161;
+}
+.xaxis path {
+  stroke: #616161;
+}
+
+.xaxis .tick {
+  font-size: 13px;
+  font-family: "Europa-Regular";
+}
+
+.yaxis line {
+  stroke: none;
+}
+.yaxis path {
+  stroke: #616161;
+}
+
+.yaxis .tick {
+  font-size: 13px;
+  font-family: "Europa-Regular";
+}
+
+.toolTip {
+  position: absolute;
+
+  display: none;
+  min-width: 30px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: left;
+}
+
+.grid .tick line {
+  stroke-dasharray: 1;
+  stroke: #b5b5b5;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}
+
+/* FOR FUTURE EDITORS OF THE WEBSITE: DELETE THIS IF YOU PLAN TO USE BOOTSTRAP WITH THE HOMEPAGE.
+   THIS CSS ONLY EXISTS BECAUSE BOOTSTRAP CAUSED A D3 GRAPH TO BE INCOMPATIBLE. */
+
+.flex-container {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.right-side {
+  width: 33.33%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.left-side {
+  width: 66.66%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+  .flex-container {
+    width: 960px;
+    max-width: 100%;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-container {
+    width: 540px;
+    max-width: 100%;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+}
