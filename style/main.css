@@ -73,6 +73,11 @@ a:visited:active {
 }
 
 #header nav {
+  display: flex; 
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:end;
+  /*new above*/
   padding-top: 0;
   padding-bottom: 0;
   height: 100%;
@@ -107,6 +112,11 @@ a:visited:active {
   left: 0;
   bottom: 0;
   filter: brightness(1.25);
+}
+
+.advocate-images {
+  display: flex; 
+  flex-direction: row;
 }
 
 #copy {
