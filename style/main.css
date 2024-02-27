@@ -73,10 +73,10 @@ a:visited:active {
 }
 
 #header nav {
-  display: flex; 
+  display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  align-items:end;
+  justify-content: space-between;
+  align-items: end;
   /*new above*/
   padding-top: 0;
   padding-bottom: 0;
@@ -115,7 +115,7 @@ a:visited:active {
 }
 
 .advocate-images {
-  display: flex; 
+  display: flex;
   flex-direction: row;
 }
 
@@ -125,7 +125,7 @@ a:visited:active {
   padding-top: 30px;
   height: 100%;
 }
-#course-intro-panel,
+#title-section,
 #final-project-panel,
 #overview,
 #grading,
@@ -164,7 +164,7 @@ a:visited:active {
 #sidebar #overview p {
   margin-bottom: 1px;
 }
-#course-intro-panel a {
+#title-section a {
   color: #ed5151;
 }
 #sidebar a,
@@ -179,9 +179,9 @@ a:visited:active {
 #sidebar a:hover,
 #sidebar a:focus,
 #sidebar a:active,
-#course-intro-panel a:hover,
-#course-intro-panel a:focus,
-#course-intro-panel a:active,
+#title-section a:hover,
+#title-section a:focus,
+#title-section a:active,
 #course-documents a:hover,
 #course-documents a:focus,
 #course-documents a:active,
@@ -194,9 +194,8 @@ a:visited:active {
 .department-resources a:focus,
 .project deadline table a:hover,
 .pre-quiz a:active,
-.python a:active
-.department-resources a:active,
-.project deadline table a:active,{
+.python a:active .department-resources a:active,
+.project deadline table a:active {
   color: black;
 }
 

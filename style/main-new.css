@@ -126,7 +126,7 @@ a:visited:active {
   padding-top: 30px;
   height: 100%;
 }
-#course-intro-panel,
+#title-section,
 #final-project-panel,
 #overview,
 #grading,
@@ -138,10 +138,7 @@ a:visited:active {
 #staff-header {
   margin-bottom: 8px;
 }
-#assignments,
-#resources {
-  margin-bottom: 70px;
-}
+
 #assignments-table,
 #final-project-table,
 #labs-table,
@@ -164,7 +161,7 @@ a:visited:active {
 #sidebar #overview p {
   margin-bottom: 1px;
 }
-#course-intro-panel a {
+#title-section a {
   color: #ed5151;
 }
 #sidebar a,
@@ -179,9 +176,9 @@ a:visited:active {
 #sidebar a:hover,
 #sidebar a:focus,
 #sidebar a:active,
-#course-intro-panel a:hover,
-#course-intro-panel a:focus,
-#course-intro-panel a:active,
+#title-section a:hover,
+#title-section a:focus,
+#title-section a:active,
 #course-documents a:hover,
 #course-documents a:focus,
 #course-documents a:active,
@@ -500,7 +497,7 @@ svg {
   font-family: "Inconsolata";
 }
 .div-2 {
-  background-color: rgba(244, 233, 246, 0.77);
+  background-color: #f6edf5;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -522,18 +519,19 @@ svg {
     max-width: 100%;
   }
 }
-.div-4 {
+.home-title {
   color: #26170a;
   text-align: center;
   letter-spacing: 1.3px;
   max-width: 965px;
   align-self: center;
-  margin-top: 120px;
+  margin-top: 13%;
+  margin-bottom: 10%;
   font: 400 65px/80px Metrophobic, -apple-system, Helvetica, sans-serif;
   font-family: "Europa-Regular";
 }
 @media (max-width: 991px) {
-  .div-4 {
+  .home-title {
     max-width: 100%;
     font-size: 40px;
     line-height: 54px;
@@ -544,7 +542,6 @@ svg {
   align-self: center;
   width: 100%;
   max-width: 969px;
-  margin: 85px 0 39px;
 }
 @media (max-width: 991px) {
   .div-5 {
@@ -629,8 +626,6 @@ svg {
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin: 76px 0 94px;
-  padding: 0 69px;
 }
 @media (max-width: 991px) {
   .div-9 {
@@ -639,9 +634,39 @@ svg {
     padding: 0 20px;
   }
 }
+
+.section-title {
+  margin-bottom: 2%;
+}
+
+#what-we-do {
+  background-color: #eeefdf;
+}
+
+#who-we-are {
+  background-color: #e0eae2;
+}
+
+#resources {
+  background-color: #f3e9d8;
+}
+
+#events {
+  background-color: #f3e9d8;
+}
+
+.home-page-section {
+  width: 100%;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .div-10 {
-  color: #a796e9;
-  text-align: left;
+  color: #6c7642;
+  text-align: center;
   letter-spacing: 3.5px;
   white-space: nowrap;
   font: 700 35px/46px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
@@ -785,7 +810,6 @@ svg {
   /* background-color: rgba(217, 217, 217, 0.29); */
   width: 100%;
   margin: auto;
-  padding: 276px 20px 220px;
   font: 700 20px/26px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
@@ -800,7 +824,7 @@ svg {
 .div,
 .div-2,
 .div-3,
-.div-4,
+.home-title,
 .div-5,
 .div-6,
 .div-7,
