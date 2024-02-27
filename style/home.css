@@ -1,0 +1,294 @@
+/**************************** home page styles *******************************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap");
+
+@font-face {
+  font-family: "Europa-Regular";
+  src: url("./fonts/Europa-Regular.otf");
+}
+
+#home {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+.home-page {
+  background-color: #faf9f0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Europa-Regular", Helvetica, sans-serif;
+  font-family: "Inconsolata";
+}
+.div-2 {
+  background-color: #f6edf5;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* padding: 39px 69px 50px 70px; */
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.home-title {
+  color: #26170a;
+  text-align: center;
+  letter-spacing: 1.3px;
+  max-width: 965px;
+  align-self: center;
+  margin-top: 13%;
+  margin-bottom: 10%;
+  font: 400 65px/80px Metrophobic, -apple-system, Helvetica, sans-serif;
+  font-family: "Europa-Regular";
+}
+
+@media (max-width: 991px) {
+  .home-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 54px;
+    margin-top: 40px;
+  }
+}
+.div-5 {
+  align-self: center;
+  width: 100%;
+  max-width: 969px;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-6 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 46%;
+  margin-left: 30px;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-7 {
+  justify-content: center;
+  color: #29190a;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgba(146, 108, 153, 0.77);
+  background-color: #faf9f0;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 22px 20px;
+  font: 700 30px/39px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    margin-top: 40px;
+  }
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 46%;
+  margin-left: 30px;
+}
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+.div-8 {
+  justify-content: center;
+  color: #29190a;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgba(146, 108, 153, 0.77);
+  background-color: #faf9f0;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 22px 20px;
+  font: 700 30px/39px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-8 {
+    margin-top: 40px;
+  }
+}
+.div-9 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-9 {
+    max-width: 100%;
+    margin: 40px 0;
+    padding: 0 20px;
+  }
+}
+
+.div-10 {
+  color: #6c7642;
+  text-align: center;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+  font: 700 35px/46px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-10 {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+
+.div-14 {
+  color: #8a9755;
+  font: 700 20px/26px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    max-width: 100%;
+  }
+}
+
+.div-16 {
+  justify-content: center;
+  color: #a796e9;
+  text-align: center;
+  max-width: 436px;
+  border-radius: 10px;
+  border: 4px solid #a796e9;
+  background-color: rgba(244, 233, 246, 0.4);
+  margin-top: 35px;
+  align-items: center;
+  padding: 41px 20px;
+  font: 700 30px/39px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-16 {
+    max-width: 100%;
+  }
+}
+.div-17 {
+  color: #e996b9;
+  letter-spacing: 2.5px;
+  margin-top: 33px;
+  white-space: nowrap;
+  font: 700 25px/33px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+.div-18 {
+  color: #8a9755;
+  margin-top: 32px;
+  font: 700 20px/26px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-18 {
+    max-width: 100%;
+  }
+}
+
+.div-19 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  color: rgba(41, 25, 10, 0.74);
+  text-align: center;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  /* background-color: rgba(217, 217, 217, 0.29); */
+  width: 100%;
+  margin: auto;
+  font: 700 20px/26px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-19 {
+    white-space: initial;
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 40px 0 40px 1px;
+  }
+}
+
+.div,
+.div-2,
+.home-title,
+.div-5,
+.div-6,
+.div-7,
+.div-8,
+.div-9,
+.div-10,
+.div-16,
+.div-17,
+.div-19 {
+  font-family: "Europa-Regular";
+}
+
+.div-14,
+.div-18 {
+  font-family: "Europa";
+}
+
+.section-title {
+  margin-bottom: 2%;
+}
+
+#what-we-do {
+  background-color: #eeefdf;
+}
+
+#who-we-are {
+  background-color: #e0eae2;
+}
+
+#resources {
+  background-color: #f3e9d8;
+}
+
+#events {
+  background-color: #f3e9d8;
+}
+
+.home-page-section {
+  width: 100%;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
