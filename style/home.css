@@ -22,11 +22,11 @@
   font-family: "Europa-Regular", Helvetica, sans-serif;
   font-family: "Inconsolata";
 }
-.div-2 {
+.top-section {
   background-color: #f6edf5;
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* padding: 39px 69px 50px 70px; */
@@ -34,20 +34,37 @@
   gap: 5%;
 }
 @media (max-width: 991px) {
-  .div-2 {
+  .top-section {
     max-width: 100%;
   }
 }
+.title-pic {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-left: 1.5%;
+}
 
 .home-side {
+  display: flex;
   flex: 1;
   text-align: center;
   font: 400 65px/80px Metrophobic, -apple-system, Helvetica, sans-serif;
   font-family: "Europa-Regular";
-  margin-top: 7%;
-  margin-bottom: 7%;
-  margin-left: 2%;
-  margin-right: 1.5%;
+  margin-right: 5%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 60%;
+  gap: 5%;
 }
 
 .home-title {
@@ -56,7 +73,7 @@
   /* letter-spacing: 1.3px; */
   max-width: 965px;
   flex: 2;
-  /* align-self: center; */
+  width: min-content;
   margin-top: 13%;
   margin-bottom: 10%;
   font: 400 65px/80px Metrophobic, -apple-system, Helvetica, sans-serif;
@@ -167,17 +184,29 @@
 }
 
 .div-10 {
-  color: #6c7642;
-  text-align: center;
+  color: #335f43;
+  /* text-align: center;
   letter-spacing: 3.5px;
   white-space: nowrap;
-  font: 700 35px/46px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 700 35px/46px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif; */
 }
 @media (max-width: 991px) {
   .div-10 {
     max-width: 100%;
     white-space: initial;
   }
+}
+
+.div-11 {
+  color: #6d427f;
+}
+
+.resources-title {
+  color: #6d427f;
+}
+
+.who-we-are-title {
+  color: #505831;
 }
 
 .div-14 {
@@ -192,11 +221,12 @@
 
 .div-16 {
   justify-content: center;
-  color: #a796e9;
+  color: #88549f;
   text-align: center;
   max-width: 436px;
+  width: 60vh;
   border-radius: 10px;
-  border: 4px solid #a796e9;
+  border: 4px solid #6d427f;
   background-color: rgba(244, 233, 246, 0.4);
   margin-top: 35px;
   align-items: center;
@@ -208,12 +238,12 @@
     max-width: 100%;
   }
 }
-.div-17 {
-  color: #e996b9;
+.open-hours {
+  color: #75593b;
   letter-spacing: 2.5px;
   margin-top: 33px;
   white-space: nowrap;
-  font: 700 25px/33px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
+  /* font: 700 25px/33px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif; */
 }
 @media (max-width: 991px) {
   .div-17 {
@@ -221,13 +251,13 @@
     white-space: initial;
   }
 }
-.div-18 {
+.open-hours-description {
   color: #8a9755;
-  margin-top: 32px;
+  margin-bottom: 4%;
   font: 700 20px/26px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
-  .div-18 {
+  .open-hours-description {
     max-width: 100%;
   }
 }
@@ -258,7 +288,7 @@
 }
 
 .div,
-.div-2,
+.top-section,
 .home-title,
 .div-5,
 .div-6,
@@ -273,12 +303,16 @@
 }
 
 .div-14,
-.div-18 {
+.open-hours-description {
   font-family: "Europa";
 }
 
 .section-title {
   margin-bottom: 2%;
+  text-align: center;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+  font: 700 35px/46px Miriam Libre, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
 #what-we-do {
@@ -290,7 +324,7 @@
 }
 
 #resources {
-  background-color: #f3e9d8;
+  background-color: #fdfaff;
 }
 
 #events {
